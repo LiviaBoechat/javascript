@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(224, 224, 228);
+            color: rgb(130, 136, 141);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+     var n1 = Number(window.prompt('Digite um número: ')) // ou Number.parseInt(n) p/ número inteiro ou Number.parseFloat(n) para números reais, caso precise especificar o tipo de número
+     var n2 = Number(window.prompt('Digite outro número: '))
+     var s = n1 + n2 
+     window.alert(`A soma dos valores entre ${n1} e ${n2} é ${s}.`) // ou usando concatenação: window.alert('A soma dos valore é ' + s)
+    </script>
+    
+</body>
+</html>
