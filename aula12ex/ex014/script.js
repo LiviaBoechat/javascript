@@ -1,8 +1,8 @@
 function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')  
-    var data = new Date()
-    var hora = data.getHours()
+    var data = new Date() //considera hr corrente
+    var hora = data.getHours() //considera hr corrente
     
     msg.innerHTML = `Agora são ${hora} horas.` //em vez de aparecer o texto da div#msg, que está no HTML, vai aparecer isso, por conta da função onload() que foi colocado no body do HTML
     

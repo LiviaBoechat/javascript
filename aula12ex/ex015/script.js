@@ -13,8 +13,8 @@ function verificar() {
         //res.innerHTML = `Idade calculada: ${idade}`
         
         var gênero = '' //ñ entendi pq tá vazio
-        var img = document.createElement('img') //inserir imagem dinamicamente
-        img.setAttribute('id','foto') //em vez de criar o elemento no html e criar uma var pra ele no JS, criou já no JS c/ id 'foto'
+        var img = document.createElement('img') //em vez de criar o elemento no html e criar uma var pra ele no JS, criou já no JS c/ id 'foto'
+        img.setAttribute('id','foto') //inserir a imagem criada acima
         if (fsex[0].checked) { //se a pessoa der check no primeiro input
             gênero = 'Homem'
             if (idade >=0 && idade < 10) {
